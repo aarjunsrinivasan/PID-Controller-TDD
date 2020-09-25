@@ -1,8 +1,8 @@
 /**
- * @file    PIDController.hpp
+ * @file    PIDController.cpp
  * @author  Arjun Srinivasan Ambalam
  * @copyright GNU Public License
- * @brief Declaration of class PIDController.
+ * @brief Definition of class PIDController.
  */
 
 #include<iostream>
@@ -10,7 +10,7 @@
 
 #include "PIDController.hpp"
 
-PIDController::PIDController(double p, double i, double d):kp(p), ki(i), kd(d) {
+PIDController::PIDController(double p, double i, double d) {
 }
 
 
