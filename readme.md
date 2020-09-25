@@ -1,11 +1,12 @@
-# C++ Boilerplate
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+# PID-Controller-TDD
+[![Build Status](https://travis-ci.org/aarjunsrinivasan/PID-Controller-TDD.svg?branch=master)](https://travis-ci.org/aarjunsrinivasan/PID-Controller-TDD)
+[![Coverage Status](https://coveralls.io/repos/github/aarjunsrinivasan/PID-Controller-TDD/badge.svg?branch=master)](https://coveralls.io/github/aarjunsrinivasan/PID-Controller-TDD?branch=master)
+
 ---
 
 ## Overview
 
-Simple starter C++ project with:
+PID-Controller C++ project with:
 
 - cmake
 - googletest
