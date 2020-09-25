@@ -16,6 +16,11 @@ PID-Controller C++ project with:
 - Arjun Srinivasan Ambalam - Driver
 - Santosh Kesani- Navigator
 
+## Notes for other group
+- [Activity Diagram](https://drive.google.com/file/d/1dRbkq3Taf6Z73ygjnV3DdDV7xV2uicI_/view?usp=sharing) - Refer this link for the UML Activity Diagram
+- [Class Diagram](https://drive.google.com/file/d/1g7V8JkIfbAIJ0B3mUg6zvwWFMx9G7tNl/view?usp=sharing) - Refer this link for the UML Class Diagram
+-Implement two methods tuneController,errorFeedbackin PIDController.cpp refer the class method definition and doxygen comments
+
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/dpiet/cpp-boilerplate
