@@ -24,7 +24,7 @@ PID-Controller C++ project with:
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
+git clone --recursive https://github.com/aarjunsrinivasan/PID-Controller-TDD
 cd <path to repository>
 mkdir build
 cd build
@@ -34,7 +34,7 @@ Run tests: ./test/cpp-test
 Run program: ./app/shell-app
 ```
 
-## Building for code coverage (for assignments beginning in Week 4)
+## Building for code coverage
 ```
 sudo apt-get install lcov
 cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
@@ -51,16 +51,16 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
+git clone --recursive https://github.com/aarjunsrinivasan/PID-Controller-TDD
 ```
 
-In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of cpp-boilerplate
+In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of PID-Controller
 
 ```
 cd ~/workspace
-mkdir -p boilerplate-eclipse
-cd boilerplate-eclipse
-cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../cpp-boilerplate/
+mkdir -p pid-Controller
+cd pid-Controller
+cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../pid-Controller/
 ```
 
 ## Import
