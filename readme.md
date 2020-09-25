@@ -49,7 +49,7 @@ To detect bugs and perform static code analysis, cppcheck is used. It can be ins
 ```
 sudo apt-get install cppcheck
 ```
-To run cppcheck, run the following command in the `/TerpBotics-Human_Perception-Module` folder:
+To run cppcheck, run the following command in the `/PID-Controller-TDD` folder:
 ```
 cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $( find . -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/" )
 ```
@@ -61,6 +61,6 @@ To check if the Google style guide is followed cpplint is used:
 sudo apt-get install cpplint
 ```
 
-To run the cpplint, follow the following commands in the `/TerpBotics-Human_Perception-Module` directory:
+To run the cpplint, follow the following commands in the `/PID-Controller-TDD` directory:
 ```
 cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" -e "^./data" )
