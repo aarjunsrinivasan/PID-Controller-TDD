@@ -11,6 +11,11 @@ PID-Controller C++ project with:
 - cmake
 - googletest
 
+## Part 1- Authors
+
+- Arjun Srinivasan Ambalam - Driver
+- Santosh Kesani- Navigator
+
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/dpiet/cpp-boilerplate
