@@ -5,30 +5,51 @@
  * @brief Definition of class PIDController.
  */
 
-#include<iostream>
-
+#include <iostream>
 
 #include "PIDController.hpp"
 
 PIDController::PIDController(double p, double i, double d) {
+  kp = p;
+  ki = i;
+  kd = d;
+  current_error = 0;
+  previous_error = 0;
 }
 
-
 double PIDController::getKp() {
-    return kp;
+  return kp;
 }
 
 double PIDController::getKi() {
-    return ki;
+  return ki;
 }
 
 double PIDController::getKd() {
-    return kd;
+  return kd;
 }
 
 double PIDController::tuneController(double desired_vel, double actual_vel) {
-             return 10;
-    }
+  current_error = desired_vel - actual_vel;
+
+  double feedback = 0.0;
+
+  while (current_error > error_threshold) {
+    actual_vel = feedback + actual_vel;
+
+    current_error = desired_vel - actual_vel;
+
+    sum_error = sum_error + current_error;
+    feedback = errorFeedback();
+    previous_error = current_error;
+  }
+
+  return actual_vel;
+}
+
 double PIDController::errorFeedback() {
-        return 10;
+  double feedback = kp * current_error + kd * (current_error - previous_error)
+      + ki * (sum_error);
+
+  return feedback;
 }
