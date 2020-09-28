@@ -21,11 +21,17 @@ PID-Controller C++ project with:
 - Sneha Nayak; GitHub: [snehanyk05](https://github.com/snehanyk05); Role: Driver
 - Kushagra Agrawal; GitHub: [kushagra7176](https://github.com/kushagra7176); Role: Navigator
 
+
+
 ## Notes for other group
 - [Activity Diagram](https://drive.google.com/file/d/1dRbkq3Taf6Z73ygjnV3DdDV7xV2uicI_/view?usp=sharing) - Refer this link for the UML Activity Diagram
 - [Class Diagram](https://drive.google.com/file/d/1g7V8JkIfbAIJ0B3mUg6zvwWFMx9G7tNl/view?usp=sharing) - Refer this link for the UML Class Diagram
 
 - Implement two methods tuneController,errorFeedbackin PIDController.cpp refer the class method definition and doxygen comments
+
+## Discussion with other group
+- Class methods implemented as per original class design
+- Both test cases were passed
 
 ## Standard install via command-line
 ```
